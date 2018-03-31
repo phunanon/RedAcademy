@@ -1,1 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Red Academy</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript" src="modules.js"></script>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <script>
+let current_module = 0;
 
+function loadNavpanel ()
+{
+    let nav_html = "";
+    let prev_topic = "";
+    let m = 0;
+    for (let module of _modules) {
+      //Output per topic
+        if (prev_topic != module.topic) {
+            if (m) {
+                nav_html += "</ul>";
+            }
+            nav_html += "<ul><h3>"+ module.topic +"</h3>"
+        }
+      //Output list item
+        let class_html = "";
+        let style_html = "";
+        class_html += (m == current_module ? "current" : "");
+        style_html += "margin-left: "+ module.level * 1 +"rem;";
+        nav_html += "<li class='"+ class_html +"' style='"+ style_html +"' onclick='loadModule("+ m +")'>"+ module.title +"</li>";
+
+        prev_topic = module.topic;
+        ++m;
+    }
+    e("navpanel").innerHTML = nav_html;
+}
+
+function loadModule (mod)
+{
+    mod = parseInt(mod);
+    e("button#previous-module").disabled = (mod ? "" : "disabled");
+    let module = _modules[mod];
+    e("module h1").innerHTML = module.title;
+    e("module content").innerHTML = module.content;
+    
+    current_module = mod;
+    e("#bookmarx").value = mod;
+    loadNavpanel();
+    e("module").scrollIntoView();
+}
+
+function e (el) { return document.querySelector(el); }
+function s (el) { return e(el).style; }
+        </script>
+    </head>
+    <body onload="loadModule(e('#bookmarx').value)">
+        <navpanel>
+        </navpanel>
+        <module>
+            <button id="previous-module" onclick="loadModule(current_module-1)">Previous section</button>
+            <button id="next-module" onclick="loadModule(current_module+1)">Next section</button>
+            <headbox><h1></h1></headbox>
+            <content></content>
+        </module>
+        <input id="bookmarx" type="number" value="0" style="display: none">
+    </body>
+</html>

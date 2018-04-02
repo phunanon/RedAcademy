@@ -20,7 +20,7 @@ let current_module = 0;
 
 function loadNavpanel ()
 {
-    let nav_html = "";
+    let nav_html = "<li id='mod-1' style='visibility: hidden'></li>";
     let prev_topic = "";
     let m = 0;
     for (let module of _modules) {
@@ -36,7 +36,7 @@ function loadNavpanel ()
         let style_html = "";
         class_html += (m == current_module ? "current" : "");
         style_html += "margin-left: "+ module.level * 1 +"rem;";
-        nav_html += "<li class='"+ class_html +"' style='"+ style_html +"' onclick='loadModule("+ m +")'>"+ module.title +"</li>";
+        nav_html += "<li id='mod"+ m +"' class='"+ class_html +"' style='"+ style_html +"' onclick='loadModule("+ m +")'>"+ module.title +"</li>";
 
         prev_topic = module.topic;
         ++m;
@@ -57,6 +57,7 @@ function loadModule (mod)
     e("#bookmarx").value = mod;
     loadNavpanel();
     e("module").scrollIntoView();
+    e("li#mod"+(mod-1)).scrollIntoView();
     if (isMobile()) { toggleMenu(false); }
 }
 

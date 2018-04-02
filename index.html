@@ -59,6 +59,8 @@ function loadModule (mod)
     e("module").scrollIntoView();
     e("li#mod"+(mod-1)).scrollIntoView();
     if (isMobile()) { toggleMenu(false); }
+    
+    s("redbar bar").width = (mod / (_modules.length-1) * 100) +"%";
 }
 
 function toggleMenu (open = "toggle")
@@ -79,6 +81,7 @@ function isMobile () { return window.matchMedia("(max-width: 50rem)").matches; }
         <navpanel>
         </navpanel>
         <module>
+            <redbar><bar></bar></redbar>
             <button class="navbtn" id="toggle-menu" onclick="toggleMenu()">Open menu</button>
             <button class="navbtn" id="previous-module" onclick="loadModule(current_module-1)">◀</button>
             <button class="navbtn" id="next-module" onclick="loadModule(current_module+1)">▶</button>

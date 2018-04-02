@@ -25,6 +25,7 @@ module {
     padding: 2rem 2rem 6rem 2rem;
     background-color: #ddf;
     min-height: 100vh;
+    position: relative;
 }
 
 navpanel li {
@@ -63,6 +64,21 @@ module td.vr { border-left: .1rem solid #000; }
 module .navbtn { position: fixed; bottom: 2rem; min-width: 4rem; }
 module .navbtn#next-module { right: 2rem; }
 module .navbtn#toggle-menu { display: none; left: 0; bottom: 0; width: 100%; }
+
+redbar {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 0;
+    width: 100%;
+}
+redbar bar {
+    display: inline-block;
+    height: .5rem;
+    background-color: #f00;
+    width: 1rem;
+}
 
 big { font-size: 133% !important; }
 

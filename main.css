@@ -22,7 +22,7 @@ navpanel {
 module {
     display: block;
     margin-left: 22vw;
-    padding: 2rem 2rem 10rem 2rem;
+    padding: 2rem 2rem 6rem 2rem;
     background-color: #ffe;
     min-height: 100vh;
 }
@@ -47,18 +47,17 @@ module h1 {
     background-color: #f00;
     color: #fff;
     padding: 1rem;
-    margin: .5rem .5rem 1rem .5rem;
+    margin: .5rem .5rem 2rem .5rem;
 }
-module *:not(b):not(u):not(i):not(td):not(hr):not(h1) {
-    padding: .32rem;
+module *:not(b):not(u):not(i):not(a):not(td):not(hr):not(h1):not(content) {
+    margin: .32rem;
     font-size: 1.2rem;
     line-height: 2rem;
 }
-module li { margin-left: 2rem; }
+module li { margin-left: 2rem !important; padding-left: .5rem; }
 module hr { margin-top: 2rem; }
-module td { text-align: center; }
+module th, td { text-align: left; padding: .5rem; }
 module table { border: .2rem solid #000; }
-module td { padding: 1rem; }
 module td.vr { border-left: .1rem solid #000; }
 module button { position: fixed; bottom: 2rem; }
 module button#next-module { right: 2rem; }

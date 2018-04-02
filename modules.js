@@ -3,7 +3,7 @@ let _modules = [
 
     { topic: "Welcome",    level: 0,  title: "Welcome to Red Academy", content: `
 <p>This online course is an easy-to-digest, complete-beginner's resource to anti-capitalism.</p>
-<p>I have tried to write it in simple English.</p>
+<p>I have tried to write in simple English.</p>
 <p>Read each section in order, and by the end, you will have a basic understanding of capitalism, Marxism, and other anti-capitalist analysis & movements.</p>
     ` },
 
@@ -86,7 +86,12 @@ let _modules = [
 
     { topic: "Marxism",       level: 0,  title: "Class Conflict", content: `
 <p>Marxism concludes that society is constantly in conflict, between the Proletariat and Bourgeois classes.</p>
-<p>A worker wants to increase their wage, but a capitalist wants to lower it.</p>` },
+<p>They have different interests: the Proletariat want to increase wages, the Bourgeois want to decrease wages.</p>
+<p></p>` },
+
+    { topic: "Marxism",       level: 1,  title: "Bourgeois State", content: `
+<p></p>
+` },
 
     { topic: "Marxism",       level: 1,  title: "Shareholding", content: `
 <p></p>
@@ -103,10 +108,6 @@ let _modules = [
     { topic: "Marxism",       level: 1,  title: "Separation", content: `
 <p></p>
 //Loss of collaboration
-` },
-
-    { topic: "Marxism",       level: 1,  title: "Bourgeois State", content: `
-<p></p>
 ` },
 
     { topic: "Marxism",       level: 1,  title: "Fascism", content: `

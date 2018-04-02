@@ -10,8 +10,8 @@
 function loadPage ()
 {
     document.onkeydown = function(e) {
-        if (e.keyCode == 37 || e.keyCode == 38) { loadModule(current_module-1); }
-        if (e.keyCode == 39 || e.keyCode == 40) { loadModule(current_module+1); }
+        if (e.keyCode == 37) { loadModule(current_module-1); }
+        if (e.keyCode == 39) { loadModule(current_module+1); }
     };
     loadModule(e('#bookmarx').value);
 }
@@ -41,7 +41,8 @@ function loadNavpanel ()
         prev_topic = module.topic;
         ++m;
     }
-    e("navpanel").innerHTML = nav_html;
+    nav_html += "</ul>";
+    e("navpanel").innerHTML = nav_html +"<br><br><br><br>";
 }
 
 function loadModule (mod)
@@ -51,26 +52,39 @@ function loadModule (mod)
     let module = _modules[mod];
     e("module h1").innerHTML = module.title;
     e("module content").innerHTML = module.content;
-    
+
     current_module = mod;
     e("#bookmarx").value = mod;
     loadNavpanel();
     e("module").scrollIntoView();
+    if (isMobile()) { toggleMenu(false); }
+}
+
+function toggleMenu (open = "toggle")
+{
+    if (open == "toggle") { open = s("navpanel").display != "block"; }
+    let new_display = "none";
+    if (open) { new_display = "block"; }
+    s("navpanel").display = new_display;
+    e("#toggle-menu").innerHTML = (open ? "Close menu" : "Open menu");
 }
 
 function e (el) { return document.querySelector(el); }
 function s (el) { return e(el).style; }
+function isMobile () { return window.matchMedia("(max-width: 50rem)").matches; }
         </script>
     </head>
     <body onload="loadPage()">
         <navpanel>
         </navpanel>
         <module>
-            <button id="previous-module" onclick="loadModule(current_module-1)">Previous section</button>
-            <button id="next-module" onclick="loadModule(current_module+1)">Next section</button>
+            <button class="navbtn" id="toggle-menu" onclick="toggleMenu()">Open menu</button>
+            <button class="navbtn" id="previous-module" onclick="loadModule(current_module-1)">◀</button>
+            <button class="navbtn" id="next-module" onclick="loadModule(current_module+1)">▶</button>
             <headbox><h1></h1></headbox>
             <content></content>
         </module>
         <input id="bookmarx" type="number" value="0" style="display: none">
+        <div id="mobile"></div>
     </body>
 </html>

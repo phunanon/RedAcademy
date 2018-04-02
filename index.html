@@ -7,6 +7,15 @@
         <script type="text/javascript" src="modules.js"></script>
         <link rel="stylesheet" type="text/css" href="main.css">
         <script>
+function loadPage ()
+{
+    document.onkeydown = function(e) {
+        if (e.keyCode == 37 || e.keyCode == 38) { loadModule(current_module-1); }
+        if (e.keyCode == 39 || e.keyCode == 40) { loadModule(current_module+1); }
+    };
+    loadModule(e('#bookmarx').value);
+}
+
 let current_module = 0;
 
 function loadNavpanel ()
@@ -53,7 +62,7 @@ function e (el) { return document.querySelector(el); }
 function s (el) { return e(el).style; }
         </script>
     </head>
-    <body onload="loadModule(e('#bookmarx').value)">
+    <body onload="loadPage()">
         <navpanel>
         </navpanel>
         <module>

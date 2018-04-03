@@ -7,8 +7,8 @@ let _modules = [
 <p>Read each section in order, and by the end, you will have a basic understanding of capitalism, Marxism, and other anti-capitalist analysis & movements.</p>
     ` },
 
-    { topic: "Marxism",       level: 0,  title: "Marxism: An Introduction", content: `
-<p><b>Marxism</b> is an analysis of modern society, from the writings of Karl Marx and Friedrich Engels. Some basic conclusions of Marxism are:</p>
+    { topic: "Marxism",       level: 0,  title: "Marxism Introduction", content: `
+<p><b>Marxism</b> is an analysis of modern society by Karl Marx, Friedrich Engels and others. Some basic conclusions of Marxism are:</p>
 <ul>
     <li>World society must go through socialism before it reaches communism.</li>
     <li>World society is in conflict between the workers and the employers.</li>
@@ -50,7 +50,7 @@ let _modules = [
 <p>There are two types of Bourgeoisie: industrial and financial.</p>
 <hr>
 <p>How to pronounce: proletariat (pro-lit-airy-at), petite (peh-teet), bourgeoisie (bor-jwaz-ee).</p>
-<p>As an adjective: bourgeois (bor-jwaz). E.g. <i>bourgeois culture</i>.</p>` },
+<p>Adjectives: bourgeois (bor-jwaz), proletarian (pro-lit-airy-an), e.g. <i>bourgeois culture, proletarian revolution</i>.</p>` },
 
     { topic: "Marxism",       level: 1,  title: "Profit: Industrial", content: `
 <p><b>Profit</b> is money or products that a capitalist gets for themselves. The two different types of capitalist get profit differently.</p>
@@ -76,8 +76,8 @@ let _modules = [
 ` },
 
     { topic: "Marxism",       level: 1,  title: "Financial Crisis", content: `
-<p>The way an industrial capitalist gets surplus, with exploitation, causes financial crisis, like in 2008.</p>
-<p>When a worker is paid only some of the value they made, they then cannot buy back everything they produced.</p>
+<p>The way an industrial capitalist gets surplus, with exploitation, causes financial crises, like in 2008.</p>
+<p>Because a worker is paid only some of the value they made, they cannot buy back everything they produced.</p>
 <p>For example, if every person worked picking fruit - $20 of fruit picked per hour - but they were paid only $10 per hour, they could only buy half of what they produced.</p>
 <p>Capitalists do not fix this (by exploiting less) because they all want to exploit a big surplus for themselves. Also, they usually spend fast enough to avoid this problem.</p>
 <p>It is also slightly fixed by giving loans, mortgages, and credit to workers so they can still buy without money.</p>
@@ -85,19 +85,62 @@ let _modules = [
 ` },
 
     { topic: "Marxism",       level: 0,  title: "Class Conflict", content: `
-<p>Marxism concludes that society is constantly in conflict, between the Proletariat and Bourgeois classes.</p>
-<p>They have different interests: the Proletariat want to increase wages, the Bourgeois want to decrease wages.</p>
-<p></p>` },
-
-    { topic: "Marxism",       level: 1,  title: "Bourgeois State", content: `
-<p></p>
+<p>Marxism finds that <u>society is constantly in conflict, between the Proletariat and Bourgeoisie</u>.</p>
+<p>They have different interests. First, the Proletariat want to increase wages, the Bourgeoisie want to decrease wages.</p>
+<p>The Bourgeoisie always want to increase profit. However, the Bourgeoisie are also in conflict with each other. Not only in a market, but politically.</p>
+<p>Socialism is the fight against the Bourgeoisie.</p>
 ` },
 
     { topic: "Marxism",       level: 1,  title: "Shareholding", content: `
+<p>Shareholding is where a person or business owns <b>shares</b>/<b>stock</b> in a corporation. These are documents saying the owner can <u>vote, and get <b>dividends</b></u>.</p>
+<p>A corporation is run by a <b>board of directors</b>. Shareholders vote for who becomes a director. The directors choose how much surplus to give shareholders every quarter of a year, as dividends. Usually, somebody with 100 shares gets 100 votes, and 100 dividends.</p>
+<p>Shares are sold in stock markets. The price is how good the corporation is, and how many dividends it pays.</p>
+<p>The problem with corporations is the shareholders want big surplus. This means lowering wages, lowering safety, and increasing hours. It will also reduce costs, but workers do this anyway.</p>
+<p>Shareholders are Bourgeois, as they 'own' private property by voting for directors.</p>
+` },
+
+    { topic: "Marxism",       level: 1,  title: "Bourgeois State", content: `
+<p>Marxism finds that a state (a government, courts, prisons, police, army) is a tool of the Bourgeoisie. It sees a state as what happens when there are different classes.</p>
+//Mediate class antogonisms so society doesn't just collapse
+//Organisation of violence, to keep oppressed oppressed
+//The workers need to become the ruling class
+//Dictatorship of the bourgeoisie
+//Prole state needs to wither away
+//Due to the loss of antagonism, the state will wither away
+<p></p>
+//Anti-socialist
+//Doesn't mind autocratic concealment
+` },
+
+    { topic: "Marxism",       level: 1,  title: "Fascism", content: `
+<p></p>
+` },
+
+    { topic: "Marxism",       level: 0,  title: "Imperialism", content: `
+<p></p>
+` },
+
+    { topic: "Marxism",       level: 1,  title: "Global Banking", content: `
+<p></p>
+` },
+
+    { topic: "Marxism",       level: 1,  title: "Foreign Aid", content: `
+<p></p>
+` },
+
+    { topic: "Marxism",       level: 1,  title: "Silk Road", content: `
+<p></p>
+` },
+
+    { topic: "Marxism",       level: 0,  title: "Inefficiency", content: `
 <p></p>
 ` },
 
     { topic: "Marxism",       level: 1,  title: "Waste", content: `
+<p></p>
+` },
+
+    { topic: "Marxism",       level: 1,  title: "Consumerism", content: `
 <p></p>
 ` },
 
@@ -110,21 +153,35 @@ let _modules = [
 //Loss of collaboration
 ` },
 
-    { topic: "Marxism",       level: 1,  title: "Fascism", content: `
+    { topic: "Marxism",       level: 0,  title: "Actual Communism", content: `
 <p></p>
 ` },
 
-    { topic: "Marxism",       level: 0,  title: "Reformism", content: `` },
-
     { topic: "Revolution",    level: 0,  title: "Reformism", content: `` },
 
-    { topic: "Revolution",    level: 0,  title: "National Question", content: `` },
+    { topic: "Revolution",    level: 0,  title: "Method", content: `` },
 
-    { topic: "Civil Rights",  level: 0,  title: "", content: `` },
+    { topic: "Revolution",    level: 1,  title: "Investigation", content: `//Pegagogy of the Oppressed` },
 
-    { topic: "Feminism",      level: 0,  title: "", content: `` },
+    { topic: "Revolution",    level: 1,  title: "National Question", content: `` },
+    
+    { topic: "Revolution",    level: 0,  title: "History", content: `` },
+    
+    { topic: "Revolution",    level: 1,  title: "Paris Commune", content: `` },
+    
+    { topic: "Revolution",    level: 1,  title: "Soviet Union", content: `` },
+    
+    { topic: "Revolution",    level: 1,  title: "Cuba", content: `` },
+    
+    { topic: "Revolution",    level: 1,  title: "Burkina Faso", content: `` },
 
-    { topic: "Veganism",      level: 0,  title: "", content: `` }
+    { topic: "Civil Rights",  level: 0,  title: "Civil Rights", content: `` },
+
+    { topic: "Feminism",      level: 0,  title: "Feminism", content: `` },
+
+    { topic: "Veganism",      level: 0,  title: "Veganism", content: `` },
+
+    { topic: "End",           level: 0,  title: "Congratulations", content: `` }
 ];
 
 

@@ -48,7 +48,12 @@ function loadNavpanel ()
 function loadModule (mod)
 {
     mod = parseInt(mod);
+  //Check bounds
+    if (mod < 0) { return; }
+    if (mod >= _modules.length) { return; }
+  //Load module data
     e("button#previous-module").disabled = (mod ? "" : "disabled");
+    e("button#next-module").disabled = (mod+1 != _modules.length ? "" : "disabled");
     let module = _modules[mod];
     e("module h1").innerHTML = module.title;
     e("module content").innerHTML = module.content;

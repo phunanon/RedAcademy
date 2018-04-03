@@ -60,7 +60,7 @@ module hr { margin-top: 2rem; }
 module th, td { text-align: left; padding: .5rem; }
 module table { border: .2rem solid #000; }
 module td.vr { border-left: .1rem solid #000; }
-module .navbtn { position: fixed; bottom: 2rem; min-width: 4rem; }
+module .navbtn { position: fixed; bottom: 2rem; min-width: 4rem; z-index: 2; }
 module .navbtn#next-module { right: 2rem; }
 module .navbtn#toggle-menu { display: none; left: 0; bottom: 0; width: 100%; }
 

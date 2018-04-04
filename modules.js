@@ -1,19 +1,19 @@
 
 let _modules = [
 
-    { topic: "Welcome",    level: 0,  title: "Welcome to Red Academy", content: `
+    { topic: "Welcome",       level: 0,  title: "Welcome to Red Academy", content: `
 <p>This online course is an easy-to-digest, complete-beginner's resource to anti-capitalism.</p>
 <p>I have tried to write in simple English.</p>
 <p>Read each section in order, and by the end, you will have a basic understanding of capitalism, Marxism, and other anti-capitalist analysis & movements.</p>
     ` },
 
     { topic: "Marxism",       level: 0,  title: "Marxism Introduction", content: `
-<p><b>Marxism</b> is an analysis of modern society by Karl Marx, Friedrich Engels and others. Some basic conclusions of Marxism are:</p>
+<p><b>Marxism</b> is an analysis of society and economy by Karl Marx, Friedrich Engels, and others. Some conclusions of Marxism are:</p>
 <ul>
-    <li>World society must go through socialism before it reaches communism.</li>
     <li>World society is in conflict between the workers and the employers.</li>
-    <li>World economy, in socialism, must be democratically controlled by all workers.</li>
+    <li>World economy must be democratically controlled by all workers.</li>
     <li>World society must go through popular revolution, not voting, to reach socialism.</li>
+    <li>World society must go through socialism before it reaches communism.</li>
 </ul>
 <p>You will learn why these are Marxism's conclusions throughout this course.</p>
 <p>Marxism also shows why things have value in money, and how trade works.</p>
@@ -53,7 +53,7 @@ let _modules = [
 <p>Adjectives: bourgeois (bor-jwaz), proletarian (pro-lit-airy-an), e.g. <i>bourgeois culture, proletarian revolution</i>.</p>` },
 
     { topic: "Marxism",       level: 1,  title: "Profit: Industrial", content: `
-<p><b>Profit</b> is money or products that a capitalist gets for themselves. The two different types of capitalist get profit differently.</p>
+<p><b>Profit</b> is the capital that capitalists take from production for themselves. The two different types of capitalist get profit differently.</p>
 <p>The <b>industrial capitalist</b> owns capital, and their workers give labour, and so the capitalist owns the finished product. The worker will be paid a wage, as decided when they start work, but it will never be the full value of the product or service.</p>
 <p>Below shows how an <u>industrial capitalist</u> uses their capital and workers to get money:</p>
 <table>
@@ -157,7 +157,17 @@ let _modules = [
 <p></p>
 ` },
 
+    { topic: "Marxism",       level: 1,  title: "Ability", content: `
+<p></p>
+` },
+
+    { topic: "Marxism",       level: 1,  title: "Need", content: `
+<p></p>
+` },
+
     { topic: "Revolution",    level: 0,  title: "Reformism", content: `` },
+
+    { topic: "Revolution",    level: 1,  title: "Cooperatives", content: `` },
 
     { topic: "Revolution",    level: 0,  title: "Method", content: `` },
 
@@ -181,7 +191,9 @@ let _modules = [
 
     { topic: "Veganism",      level: 0,  title: "Veganism", content: `` },
 
-    { topic: "End",           level: 0,  title: "Congratulations", content: `` }
+    { topic: "End",           level: 0,  title: "Congratulations", content: `` },
+
+    { topic: "End",           level: 0,  title: "Further reading", content: `` }
 ];
 
 

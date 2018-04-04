@@ -50,7 +50,8 @@ module h1 {
     padding: 1rem;
     margin: .5rem .5rem 2rem .5rem;
 }
-module p, module li, module th, module td, module button {
+module p, module li, module th, module td, module button,
+module quiz question, module quiz output {
     margin: .32rem;
     font-size: 1.2rem;
     line-height: 2rem;
@@ -76,8 +77,10 @@ redbar bar {
     display: inline-block;
     height: .5rem;
     background-color: #f00;
-    width: 1rem;
 }
+
+quiz question, quiz output { display: block; }
+quiz output { padding-left: 2rem; border-left: .5rem solid #000; }
 
 big { font-size: 133% !important; }
 

@@ -56,7 +56,7 @@ function loadModule (mod)
     e("button#next-module").disabled = (mod+1 != _modules.length ? "" : "disabled");
     let module = _modules[mod];
     e("module h1").innerHTML = module.title;
-    e("module content").innerHTML = module.content;
+    e("module content").innerHTML = (module.quiz ? quizMaker(module.content) : module.content);
 
     current_module = mod;
     e("#bookmarx").value = mod;
@@ -75,6 +75,24 @@ function toggleMenu (open = "toggle")
     if (open) { new_display = "block"; }
     s("navpanel").display = new_display;
     e("#toggle-menu").innerHTML = (open ? "Close menu" : "Open menu");
+}
+
+function quizMaker (content)
+{
+    let questions = content.split("#");
+    let html = "";
+    for (let q in questions) {
+        let question = questions[q].split("?");
+        answers = question[1].split(";");
+        question = question[0];
+    	html += "<question>"+ question + "?</question>";
+    	for (let a in answers) {
+    	    let answer = answers[a].split(":");
+    	    html += "<button onclick='e(\"#q"+ q +"\").innerHTML = `"+ answer[1] +"`;'>"+ answer[0] +"</button>";
+    	}
+    	html += "<output id='q"+ q +"'></output>";
+    }
+    return "<quiz>"+ html +"</quiz>";
 }
 
 function e (el) { return document.querySelector(el); }

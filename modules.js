@@ -84,6 +84,17 @@ let _modules = [
 <p>However, it can go wrong: if surplus is invested in long-term capital, such as housing, the workers do not have the money to buy from the market. This causes a crash in prices.</p>
 ` },
 
+    { topic: "Marxism",       level: 1,  title: "Quiz: Capital", quiz: true, content: `
+A house with 4 people in it is what <u>type of property</u>?
+Private: Try again.; Personal: Correct! The house is not being used to get surplus.
+#Mark works at a factory. His boss pays him very well. Which <u>class</u> is he?
+Bourgeoisie: Incorrect.; Petite-Bourgeoise: Incorrect. Income does not matter.; Proletariat: Correct! Mark does not own the factory he works in.
+#Sarah is a famous singer. She owns her own recording studio. She is a millionaire. Which <u>class</u> is she?
+Bourgeoisie: Try again. Sarah does not exploit workers for surplus.; Petite-Bourgeoise: Correct! Sarah does not exploit for surplus, but does have a lot of capital (her recording studio).; Proletariat: Try again. Sarah does not work for another person.
+#Steve owns a laptop, and lets others work on it for $1 an hour. What <u>type of property</u> is the laptop?
+Private: Correct! Even though Steve does not pay wages, he is still making a surplus from the work of others.; Personal: Try again. Steve might use the laptop himself, but that is not all.
+` },
+
     { topic: "Marxism",       level: 0,  title: "Class Conflict", content: `
 <p>Marxism finds that <u>society is constantly in conflict, between the Proletariat and Bourgeoisie</u>.</p>
 <p>They have different interests. First, the Proletariat want to increase wages, the Bourgeoisie want to decrease wages.</p>

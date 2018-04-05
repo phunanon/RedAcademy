@@ -21,9 +21,9 @@ let _modules = [
 
     { topic: "Marxism",       level: 0,  title: "Capital", content: `
 <p>The most important focus of Marxism is <b>capital</b>, and who owns it. Capital is anything with value for making products. These include the <u>materials, tools, buildings, and land</u>, used by workers.</p>
-<p>For example, a taxi driver uses their car to drive passengers around a city. The taxi car is capital, as it is used to earn money.</p>
-<p>Capital is sometimes called the <b>means of production,</b> as it helps to make products for sale.</p>
-<p>Slaves are also capital, as no worker uses them like a tool, but they still create value.</p>
+<p>For example, a taxi driver uses their car to drive passengers around a city. The taxi car is capital, because it is used to earn money.</p>
+<p>Capital is sometimes called the <b>means of production,</b> because it helps to make products for sale.</p>
+<p>Slaves are also capital, because no worker uses them like a tool, but they still create value.</p>
 <p><b>Money</b> is what a bank or government gives to trade different products easier. When someone has money, it is like a ticket for already existing capital. Sometimes, a bank or government will pretend they have capital when they give you money, hoping they have the capital later.</p>
 ` },
 
@@ -46,7 +46,7 @@ let _modules = [
 </ul>
 <p>One of the <u>Proletariat</u> (a worker) could be a clothes maker in a factory. They are paid for their work, but they do not own the machines, materials, or land they use.</p>
 <p>One of the <u>Petite-Bourgeoisie</u> could be a small shop owner. They buy and sell products, and own or rent the building, but they also work there, or a few people work together.</p>
-<p>One of the <u>Bourgeoisie</u> (a capitalist) could be a landlord. They own a building and land, and rent it out. Usually they do not have to work (other than directing others).</p>
+<p>One of the <u>Bourgeoisie</u> (a capitalist) could be a landlord. They own a building and land, and rent it out. Usually they do not have to work.</p>
 <p>There are two types of Bourgeoisie: industrial and financial.</p>
 <hr>
 <p>How to pronounce: proletariat (pro-lit-airy-at), petite (peh-teet), bourgeoisie (bor-jwaz-ee).</p>
@@ -54,13 +54,13 @@ let _modules = [
 
     { topic: "Marxism",       level: 1,  title: "Profit: Industrial", content: `
 <p><b>Profit</b> is the capital that capitalists take from production for themselves. The two different types of capitalist get profit differently.</p>
-<p>The <b>industrial capitalist</b> owns capital, and their workers give labour, and so the capitalist owns the finished product. The worker will be paid a wage, as decided when they start work, but it will never be the full value of the product or service.</p>
+<p>The <b>industrial capitalist</b> owns capital, and their workers give labour, and so the capitalist owns the finished product. The worker will be paid a wage (decided when they start work) but the wage will never be the full value of the product or service.</p>
 <p>Below shows how an <u>industrial capitalist</u> uses their capital and workers to get money:</p>
 <table>
     <tr><th>1. Production</th><td>Labour + Capital <big>&rarr;</big> Product</td></tr>
     <tr><th>2. Sale</th><td>Product sold at market value</td></tr>
     <tr><th>3. Payment</th><td>Of market value:<br>30%: wage <big>&rarr;</big> worker<br>70%: surplus <big>&rarr;</big> capitalist</td></tr>
-    <tr><td><b>4. Spending</b><br>by capitalist</td><td>Buy new capital; Pay taxes, loans & rent<br>Pay managers, dividends<br>----<br>The rest is profit for the capitalist</td></tr>
+    <tr><td><b>4. Spending</b><br>of surplus<br>by capitalist</td><td>Buy new capital; Pay taxes, loans & rent<br>Pay managers, dividends<br>----<br>The rest is profit for the capitalist</td></tr>
 </table>
 <p>From this, we see that after the product is made, it is sold, and the value made from that sale is split. Some goes to wage, and the rest is called "surplus."</p>
 <p>Surplus is used to buy more capital, such as materials or other services.</p>
@@ -72,23 +72,24 @@ let _modules = [
     { topic: "Marxism",       level: 1,  title: "Profit: Financial", content: `
 <p>A <b>financial capitalist</b> gets surplus in a different way. They own a lot of capital, such as housing, land, heavy machines, and shares in business.</p>
 <p>The first capital was taken with exploitation. When people (including industrial capitalists) do not have capital themselves, they will borrow from the financial capitalist. The capitalist is paid with <b>interest</b>, so they get more capital back than they gave.</p>
-<p>A person can be a financial capitalist <i>and</i> an industrial capitalist.</p>
+<p>A capitalist can be both <i>financial</i> and <i>industrial</i>.</p>
+<p>Banks are financial capitalists. They get a profit by giving loans.</p>
 ` },
 
     { topic: "Marxism",       level: 1,  title: "Financial Crisis", content: `
 <p>The way an industrial capitalist gets surplus, with exploitation, causes financial crises, like in 2008.</p>
 <p>Because a worker is paid only some of the value they made, they cannot buy back everything they produced.</p>
 <p>For example, if every person worked picking fruit - $20 of fruit picked per hour - but they were paid only $10 per hour, they could only buy half of what they produced.</p>
-<p>Capitalists do not fix this (by exploiting less) because they all want to exploit a big surplus for themselves. Also, they usually spend fast enough to avoid this problem.</p>
+<p>Capitalists do not fix this (by exploiting less) because they all want to exploit a big surplus for themselves. This problem is fixed often by fast spending, and fast growth.</p>
 <p>It is also slightly fixed by giving loans, mortgages, and credit to workers so they can still buy without money.</p>
 <p>However, it can go wrong: if surplus is invested in long-term capital, such as housing, the workers do not have the money to buy from the market. This causes a crash in prices.</p>
 ` },
 
     { topic: "Marxism",       level: 1,  title: "Quiz: Capital", quiz: true, content: `
-A house with 4 people in it is what <u>type of property</u>?
+A house owned and lived in by a family of 4 is what <u>type of property</u>?
 Private: Try again.; Personal: Correct! The house is not being used to get surplus.
 #Mark works at a factory. His boss pays him very well. Which <u>class</u> is he?
-Bourgeoisie: Incorrect.; Petite-Bourgeoise: Incorrect. Income does not matter.; Proletariat: Correct! Mark does not own the factory he works in.
+Bourgeoisie: Try again.; Petite-Bourgeoise: Incorrect. Income does not matter.; Proletariat: Correct! Mark does not own the factory he works in.
 #Sarah is a famous singer. She owns her own recording studio. She is a millionaire. Which <u>class</u> is she?
 Bourgeoisie: Try again. Sarah does not exploit workers for surplus.; Petite-Bourgeoise: Correct! Sarah does not exploit for surplus, but does have a lot of capital (her recording studio).; Proletariat: Try again. Sarah does not work for another person.
 #Steve owns a laptop, and lets others work on it for $1 an hour. What <u>type of property</u> is the laptop?
@@ -103,11 +104,18 @@ Private: Correct! Even though Steve does not pay wages, he is still making a sur
 ` },
 
     { topic: "Marxism",       level: 1,  title: "Shareholding", content: `
-<p>Shareholding is where a person or business owns <b>shares</b>/<b>stock</b> in a corporation. These are documents saying the owner can <u>vote, and get <b>dividends</b></u>.</p>
-<p>A corporation is run by a <b>board of directors</b>. Shareholders vote for who becomes a director. The directors choose how much surplus to give shareholders every quarter of a year, as dividends. Usually, somebody with 100 shares gets 100 votes, and 100 dividends.</p>
-<p>Shares are sold in stock markets. The price is how good the corporation is, and how many dividends it pays.</p>
-<p>The problem with corporations is the shareholders want big surplus. This means lowering wages, lowering safety, and increasing hours. It will also reduce costs, but workers do this anyway.</p>
-<p>Shareholders are Bourgeois, as they 'own' private property by voting for directors.</p>
+<p>Shareholding is where someone owns <b>shares</b>/<b>stock</b> of a corporation. A share is a legal contract, saying the owner can:</p>
+<ul>
+    <li>... <b>vote</b> for new directors. A corporation is run by a <i>board of directors</i>.</li>
+    <li>... take <b>dividends</b>, which is surplus the directors choose to give out each quarter of a year.</li>
+</ul>
+<p>Usually, it is <u>one vote per share</u>, and <u>one portion of dividend per share</u>, not per shareholder. A shareholder with 100 shares gets 100 votes, and 100 worth of dividends. Therefore, shareholders with the most shares are given the most power and surplus.</p>
+<p>Shares/stock are sold in stock markets. The price is how good the corporation is, and how many dividends it pays.</p>
+<p>The problem is shareholders want big surplus. This means lowering wages, lowering safety, and increasing hours. It will also reduce costs, but workers do this anyway.</p>
+<br>
+<p>Most shareholders are Bourgeois, because they 'own' private property by voting for directors. A corporation can also own shares of other corporations.</p>
+<p>Some corporations make their customers the shareholders, such as co-operative banks or supermarkets. Usually, it will then be one vote per shareholder.</p>
+<p>Because shares are contracts, they can be different: maybe some shares have no vote, maybe some shares pay no dividends.</p>
 ` },
 
     { topic: "Marxism",       level: 1,  title: "Bourgeois State", content: `
@@ -139,7 +147,7 @@ Private: Correct! Even though Steve does not pay wages, he is still making a sur
 <p></p>
 ` },
 
-    { topic: "Marxism",       level: 1,  title: "Silk Road", content: `
+    { topic: "Marxism",       level: 1,  title: "Belt & Road", content: `
 <p></p>
 ` },
 
@@ -179,12 +187,6 @@ Private: Correct! Even though Steve does not pay wages, he is still making a sur
     { topic: "Revolution",    level: 0,  title: "Reformism", content: `` },
 
     { topic: "Revolution",    level: 1,  title: "Cooperatives", content: `` },
-
-    { topic: "Revolution",    level: 0,  title: "Method", content: `` },
-
-    { topic: "Revolution",    level: 1,  title: "Investigation", content: `//Pegagogy of the Oppressed` },
-
-    { topic: "Revolution",    level: 1,  title: "National Question", content: `` },
     
     { topic: "Revolution",    level: 0,  title: "History", content: `` },
     
@@ -195,6 +197,12 @@ Private: Correct! Even though Steve does not pay wages, he is still making a sur
     { topic: "Revolution",    level: 1,  title: "Cuba", content: `` },
     
     { topic: "Revolution",    level: 1,  title: "Burkina Faso", content: `` },
+
+    { topic: "Revolution",    level: 0,  title: "Method", content: `` },
+
+    { topic: "Revolution",    level: 1,  title: "Investigation", content: `//Pegagogy of the Oppressed` },
+
+    { topic: "Revolution",    level: 1,  title: "National Question", content: `` },
 
     { topic: "Civil Rights",  level: 0,  title: "Civil Rights", content: `` },
 

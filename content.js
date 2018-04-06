@@ -3,9 +3,10 @@ let _modules = [
 
     { topic: "Welcome",       level: 0,  title: "Welcome to Red Academy", content: `
 <p>This online course is an easy-to-digest, complete-beginner's resource to anti-capitalism.</p>
-<p>I have tried to write in simple English.</p>
-<p>Read each section in order, and by the end, you will have a basic understanding of capitalism, Marxism, and other anti-capitalist analysis & movements.</p>
-    ` },
+<p>I have tried to write in simple English. Read each section in order.</p>
+<p><b>Marxism</b> teaches about capitalism, and anti-capitalist analysis.</p>
+<p><b>Revolution</b> teaches you about anti-capitalist movements, and how to help.</p>
+` },
 
     { topic: "Marxism",       level: 0,  title: "Marxism Introduction", content: `
 <p><b>Marxism</b> is an analysis of society and economy by Karl Marx, Friedrich Engels, and others. Some conclusions of Marxism are:</p>
@@ -50,7 +51,8 @@ let _modules = [
 <p>There are two types of Bourgeoisie: industrial and financial.</p>
 <hr>
 <p>How to pronounce: proletariat (pro-lit-airy-at), petite (peh-teet), bourgeoisie (bor-jwaz-ee).</p>
-<p>Adjectives: bourgeois (bor-jwaz), proletarian (pro-lit-airy-an), e.g. <i>bourgeois culture, proletarian revolution</i>.</p>` },
+<p>Adjectives: bourgeois (bor-jwaz), proletarian (pro-lit-airy-an), e.g. <i>bourgeois culture, proletarian revolution</i>.</p>
+` },
 
     { topic: "Marxism",       level: 1,  title: "Profit: Industrial", content: `
 <p><b>Profit</b> is the capital that capitalists take from production for themselves. The two different types of capitalist get profit differently.</p>
@@ -67,7 +69,8 @@ let _modules = [
 <p>In 2017, the richest 1% of the world took 82% of new value made by workers (<a href="https://www.oxfam.org/en/pressroom/pressreleases/2018-01-22/richest-1-percent-bagged-82-percent-wealth-created-last-year">ref</a>). This shows surplus is very high.</p>
 <p>Marxism calls this whole process <b>exploitation</b>.</p>
 <hr>
-<p>In Marxism, a sold product is usually called a <i>commodity</i>.` },
+<p>In Marxism, a sold product is usually called a <i>commodity</i>.
+` },
 
     { topic: "Marxism",       level: 1,  title: "Profit: Financial", content: `
 <p>A <b>financial capitalist</b> gets surplus in a different way. They own a lot of capital, such as housing, land, heavy machines, and shares in business.</p>
@@ -100,7 +103,7 @@ Private: Correct! Even though Steve does not pay wages, he is still making a sur
 <p>Marxism finds that <u>society is constantly in conflict, between the Proletariat and Bourgeoisie</u>.</p>
 <p>They have different interests. First, the Proletariat want to increase wages, the Bourgeoisie want to decrease wages.</p>
 <p>The Bourgeoisie always want to increase profit. However, the Bourgeoisie are also in conflict with each other. Not only in a market, but politically.</p>
-<p>Socialism is the fight against the Bourgeoisie.</p>
+<p>Socialism is the ultimate fight against the Bourgeoisie and their interests.</p>
 ` },
 
     { topic: "Marxism",       level: 1,  title: "Shareholding", content: `
@@ -113,30 +116,24 @@ Private: Correct! Even though Steve does not pay wages, he is still making a sur
 <p>Shares/stock are sold in stock markets. The price is how good the corporation is, and how many dividends it pays.</p>
 <p>The problem is shareholders want big surplus. This means lowering wages, lowering safety, and increasing hours. It will also reduce costs, but workers do this anyway.</p>
 <br>
-<p>Most shareholders are Bourgeois, because they 'own' private property by voting for directors. A corporation can also own shares of other corporations.</p>
+<p>Most shareholders are Bourgeois - they 'own' private property by voting for directors. A corporation can also own shares of other corporations.</p>
 <p>Some corporations make their customers the shareholders, such as co-operative banks or supermarkets. Usually, it will then be one vote per shareholder.</p>
 <p>Because shares are contracts, they can be different: maybe some shares have no vote, maybe some shares pay no dividends.</p>
 ` },
 
     { topic: "Marxism",       level: 1,  title: "Bourgeois State", content: `
-<p>Marxism finds that a state (a government, courts, prisons, police, army) is a tool of the Bourgeoisie. It sees a state as what happens when there are different classes.</p>
-//Mediate class antogonisms so society doesn't just collapse
-//Organisation of violence, to keep oppressed oppressed
-//The workers need to become the ruling class
-//Dictatorship of the bourgeoisie
-//Prole state needs to wither away
-//Due to the loss of antagonism, the state will wither away
-<p></p>
-//Anti-socialist
-//Doesn't mind autocratic concealment
+<p>Marxism sees a state (a government, courts, prisons, police, army) as a tool of the Bourgeoisie.</p>
+<p>A state is made when there are different classes in society. Because the Proletariat and Bourgeoisie are different relationships with private property, a state is needed to keep private property safe.</p>
+<p>Because private property is owned only by the Bourgeois classes, <u>a state is Bourgeois</u>.</p>
+<p>Bourgeois states are against socialism because socialism is the Proletariat owning the means of production.</p>
 ` },
 
     { topic: "Marxism",       level: 1,  title: "Fascism", content: `
-<p></p>
+<p>Fascism</p>
 ` },
 
     { topic: "Marxism",       level: 0,  title: "Imperialism", content: `
-<p></p>
+<p>Leninism</p>
 ` },
 
     { topic: "Marxism",       level: 1,  title: "Global Banking", content: `
@@ -152,7 +149,7 @@ Private: Correct! Even though Steve does not pay wages, he is still making a sur
 ` },
 
     { topic: "Marxism",       level: 0,  title: "Inefficiency", content: `
-<p></p>
+<p>Capitalism, because of its private property, is very inefficient.</p>
 ` },
 
     { topic: "Marxism",       level: 1,  title: "Waste", content: `
@@ -170,6 +167,11 @@ Private: Correct! Even though Steve does not pay wages, he is still making a sur
     { topic: "Marxism",       level: 1,  title: "Separation", content: `
 <p></p>
 //Loss of collaboration
+//Monopoly
+` },
+
+    { topic: "Marxism",       level: 1,  title: "Alienation", content: `
+<p></p>
 ` },
 
     { topic: "Marxism",       level: 0,  title: "Actual Communism", content: `
@@ -182,6 +184,14 @@ Private: Correct! Even though Steve does not pay wages, he is still making a sur
 
     { topic: "Marxism",       level: 1,  title: "Need", content: `
 <p></p>
+` },
+
+    { topic: "Marxism",       level: 0,  title: "Conclusions", content: `
+<p></p>
+` },
+
+    { topic: "Revolution",    level: 0,  title: "Revolution", content: `
+//Only problems have been talked about - now for the solutions
 ` },
 
     { topic: "Revolution",    level: 0,  title: "Reformism", content: `` },
@@ -202,17 +212,52 @@ Private: Correct! Even though Steve does not pay wages, he is still making a sur
 
     { topic: "Revolution",    level: 1,  title: "Investigation", content: `//Pegagogy of the Oppressed` },
 
+    { topic: "Revolution",    level: 1,  title: "Proletarian State", content: `
+//Bourgeois state:
+//Mediate class antogonisms so society doesn't just collapse
+//Organisation of violence, to keep oppressed oppressed
+//The workers need to become the ruling class
+//Dictatorship of the bourgeoisie
+//Prole state needs to wither away
+//Due to the loss of antagonism, the state will wither away
+//Anti-socialist
+//Doesn't mind autocratic concealment
+<!--<p>A state makes a <b>monopoly on violence</b> in an area - a place where they are strongest. The first thing a state will protect is property.</p>-->` },
+
     { topic: "Revolution",    level: 1,  title: "National Question", content: `` },
 
-    { topic: "Civil Rights",  level: 0,  title: "Civil Rights", content: `` },
+    { topic: "Liberation",    level: 0,  title: "Civil Rights", content: `` },
 
-    { topic: "Feminism",      level: 0,  title: "Feminism", content: `` },
+    { topic: "Liberation",    level: 0,  title: "Feminism", content: `` },
 
-    { topic: "Veganism",      level: 0,  title: "Veganism", content: `` },
+    { topic: "Liberation",    level: 0,  title: "Veganism", content: `` },
+
+    { topic: "History",       level: 0,  title: "People", content: `` },
+
+    { topic: "History",       level: 1,  title: "Karl Marx", content: `` },
+
+    { topic: "History",       level: 1,  title: "Friedrich Engels", content: `` },
+
+    { topic: "History",       level: 1,  title: "Vladimir Lenin", content: `` },
+
+    { topic: "History",       level: 1,  title: "Joseph Stalin", content: `` },
+
+    { topic: "History",       level: 1,  title: "Leon Trotsky", content: `` },
+
+    { topic: "History",       level: 1,  title: "Antonio Gramsci", content: `` },
+
+    { topic: "History",       level: 0,  title: "Events", content: `` },
+
+    { topic: "History",       level: 0,  title: "Places", content: `` },
 
     { topic: "End",           level: 0,  title: "Congratulations", content: `` },
 
-    { topic: "End",           level: 0,  title: "Further reading", content: `` }
+    { topic: "End",           level: 0,  title: "Further Links", content: `
+<ul>
+    <li><b>Burkina Faso</b>: <a class="wiki" href="https://en.wikipedia.org/wiki/Thomas_Sankara">Thomas Sankara</a>; <a class="YT" href="https://www.youtube.com/watch?v=G7Vlt41HPUE">Thomas Sankara: The Upright Man</a></li>
+    <li><b>Fascism</b>: <a class="YT" href="https://www.youtube.com/watch?v=n8yJOZmf19o">RSU - Fascism: What It is, How It Works, and How We Fight It</b>
+</ul>
+` }
 ];
 
 

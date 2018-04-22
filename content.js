@@ -5,7 +5,7 @@ let _modules = [
 <p>This online course is an easy-to-digest, complete-beginner's resource to anti-capitalism.</p>
 <p>I have tried to write in simple English. Read each section in order.</p>
 <p><b>Marxism</b> teaches about capitalism, and anti-capitalist analysis.</p>
-<p><b>Revolution</b> teaches you about anti-capitalist movements, and how to help.</p>
+<p><b>Revolution</b> teaches about anti-capitalist movements, and how to help.</p>
 ` },
 
     { topic: "Marxism",       level: 0,  title: "Marxism Introduction", content: `
@@ -128,8 +128,17 @@ Private: Correct! Even though Steve does not pay wages, he is still making a sur
 <p>Bourgeois states are against socialism because socialism is the Proletariat owning the means of production.</p>
 ` },
 
+    { topic: "Marxism",       level: 1,  title: "Unions", content: `
+<p><b>Unions</b> are the most natural way the proletariat fights the bourgeoisie. It is when workers say their demands (e.g. "We want more pay"), and will stop working ('strike') if employers do not give those demands.</p>
+` },
+
     { topic: "Marxism",       level: 1,  title: "Fascism", content: `
 <p>Fascism</p>
+//The old consensus has therefore been shattered. The ruling class can no longer rule in the old way. The deeper the crisis, the more they are forced to ruthlessly attack the working class and take back the gains of the past. The capitalist system cannot any longer afford such “luxuries” as decent healthcare, education, pensions and welfare for working class people and their families. This, in turn, is provoking resentment and anger against the capitalist order. This explains the rise of so-called “populism”.
+//In other words, capitalist democracy is really just the disguised dictatorship of the banks and monopolies. For them, this method of class rule is the most stable form of bourgeois state. So long as they are able to continue to rule by these means, the ruling class has no need to resort to fascism or open dictatorship.
+//If the left don't step up as a revolutionary party, the right will
+//Always exhausts and collapses
+//Sees unions and workers' movements as in the way
 ` },
 
     { topic: "Marxism",       level: 0,  title: "Imperialism", content: `
@@ -197,15 +206,15 @@ Private: Correct! Even though Steve does not pay wages, he is still making a sur
     { topic: "Revolution",    level: 0,  title: "Reformism", content: `` },
 
     { topic: "Revolution",    level: 1,  title: "Cooperatives", content: `` },
-    
+
     { topic: "Revolution",    level: 0,  title: "History", content: `` },
-    
+
     { topic: "Revolution",    level: 1,  title: "Paris Commune", content: `` },
-    
+
     { topic: "Revolution",    level: 1,  title: "Soviet Union", content: `` },
-    
+
     { topic: "Revolution",    level: 1,  title: "Cuba", content: `` },
-    
+
     { topic: "Revolution",    level: 1,  title: "Burkina Faso", content: `` },
 
     { topic: "Revolution",    level: 0,  title: "Method", content: `` },
@@ -246,6 +255,10 @@ Private: Correct! Even though Steve does not pay wages, he is still making a sur
 
     { topic: "History",       level: 1,  title: "Antonio Gramsci", content: `` },
 
+    { topic: "History",       level: 1,  title: "Others", content: `
+<p>Einstein</p>
+` },
+
     { topic: "History",       level: 0,  title: "Events", content: `` },
 
     { topic: "History",       level: 0,  title: "Places", content: `` },
@@ -255,7 +268,8 @@ Private: Correct! Even though Steve does not pay wages, he is still making a sur
     { topic: "End",           level: 0,  title: "Further Links", content: `
 <ul>
     <li><b>Burkina Faso</b>: <a class="wiki" href="https://en.wikipedia.org/wiki/Thomas_Sankara">Thomas Sankara</a>; <a class="YT" href="https://www.youtube.com/watch?v=G7Vlt41HPUE">Thomas Sankara: The Upright Man</a></li>
-    <li><b>Fascism</b>: <a class="YT" href="https://www.youtube.com/watch?v=n8yJOZmf19o">RSU - Fascism: What It is, How It Works, and How We Fight It</b>
+    <li><b>Einstein</b>: <a class="art" href="https://monthlyreview.org/2009/05/01/why-socialism/">Why Socialism?</a></li>
+    <li><b>Fascism</b>: <a class="YT" href="https://www.youtube.com/watch?v=n8yJOZmf19o">RSU - Fascism: What It is, How It Works, and How We Fight It</a></li>
 </ul>
 ` }
 ];

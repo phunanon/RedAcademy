@@ -62,7 +62,7 @@ let _modules = [
     <tr><th>1. Production</th><td>Labour + Capital <big>&rarr;</big> Product</td></tr>
     <tr><th>2. Sale</th><td>Product sold at market value</td></tr>
     <tr><th>3. Payment</th><td>Of market value:<br>30%: wage <big>&rarr;</big> worker<br>70%: surplus <big>&rarr;</big> capitalist</td></tr>
-    <tr><td><b>4. Spending</b><br>of surplus<br>by capitalist</td><td>Buy new capital; Pay taxes, loans & rent<br>Pay managers, dividends<br>----<br>The rest is profit for the capitalist</td></tr>
+    <tr><td><b>4. Spending</b><br>of surplus<br>by capitalist</td><td>Buy new capital;<br>Pay taxes, loans & rent;<br>Pay managers, dividends<br>----<br>The rest is profit for the capitalist</td></tr>
 </table>
 <p>From this, we see that after the product is made, it is sold, and the value made from that sale is split. Some goes to wage, and the rest is called "surplus."</p>
 <p>Surplus is used to buy more capital, such as materials or other services.</p>
@@ -213,6 +213,8 @@ Private: Correct! Even though Steve does not pay wages, he is still making a sur
 
     { topic: "Revolution",    level: 1,  title: "Soviet Union", content: `` },
 
+    { topic: "Revolution",    level: 1,  title: "World War II", content: `` },
+
     { topic: "Revolution",    level: 1,  title: "Cuba", content: `` },
 
     { topic: "Revolution",    level: 1,  title: "Burkina Faso", content: `` },
@@ -270,6 +272,9 @@ Private: Correct! Even though Steve does not pay wages, he is still making a sur
     <li><b>Burkina Faso</b>: <a class="wiki" href="https://en.wikipedia.org/wiki/Thomas_Sankara">Thomas Sankara</a>; <a class="YT" href="https://www.youtube.com/watch?v=G7Vlt41HPUE">Thomas Sankara: The Upright Man</a></li>
     <li><b>Einstein</b>: <a class="art" href="https://monthlyreview.org/2009/05/01/why-socialism/">Why Socialism?</a></li>
     <li><b>Fascism</b>: <a class="YT" href="https://www.youtube.com/watch?v=n8yJOZmf19o">RSU - Fascism: What It is, How It Works, and How We Fight It</a></li>
+    <li><b>Marxism-Leninism-Maoism</b>: <a class="YT" href="https://www.youtube.com/watch?v=-mtusYyzvmo">Inside the New People's Army (Philippines)</a></li>
+    <li><b>Imperialism</b>: <a class="wiki" href="https://en.wikipedia.org/wiki/Malay_Emergency">Malay Emergency</a></li>
+    https://www.youtube.com/watch?v=RibAQHeDia8&t=12s
 </ul>
 ` }
 ];

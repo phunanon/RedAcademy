@@ -48,7 +48,7 @@ let _modules = [
 <p>One of the <u>Proletariat</u> (a worker) could be a clothes maker in a factory. They are paid for their work, but they do not own the machines, materials, or land they use.</p>
 <p>One of the <u>Petite-Bourgeoisie</u> could be a small shop owner. They buy and sell products, and own or rent the building, but they also work there, or a few people work together.</p>
 <p>One of the <u>Bourgeoisie</u> (a capitalist) could be a landlord. They own a building and land, and rent it out. Usually they do not have to work.</p>
-<p>There are two types of Bourgeoisie: industrial and financial.</p>
+<p>There are two types of Bourgeoisie: <u>industrial</u> and <u>financial</u>.</p>
 <hr>
 <p>How to pronounce: proletariat (pro-lit-airy-at), petite (peh-teet), bourgeoisie (bor-jwaz-ee).</p>
 <p>Adjectives: bourgeois (bor-jwaz), proletarian (pro-lit-airy-an), e.g. <i>bourgeois culture, proletarian revolution</i>.</p>
@@ -64,7 +64,7 @@ let _modules = [
     <tr><th>3. Payment</th><td>Of market value:<br>30%: wage <big>&rarr;</big> worker<br>70%: surplus <big>&rarr;</big> capitalist</td></tr>
     <tr><td><b>4. Spending</b><br>of surplus<br>by capitalist</td><td>Buy new capital;<br>Pay taxes, loans & rent;<br>Pay managers, dividends<br>----<br>The rest is profit for the capitalist</td></tr>
 </table>
-<p>From this, we see that after the product is made, it is sold, and the value made from that sale is split. Some goes to wage, and the rest is called "surplus."</p>
+<p>From this, we see that after the product is made, it is sold, and the value made from that sale is split. Some goes to wage, and the rest is called "surplus".</p>
 <p>Surplus is used to buy more capital, such as materials or other services.</p>
 <p>In 2017, the richest 1% of the world took 82% of new value made by workers (<a href="https://www.oxfam.org/en/pressroom/pressreleases/2018-01-22/richest-1-percent-bagged-82-percent-wealth-created-last-year">ref</a>). This shows surplus is very high.</p>
 <p>Marxism calls this whole process <b>exploitation</b>.</p>
@@ -75,13 +75,12 @@ let _modules = [
     { topic: "Marxism",       level: 1,  title: "Profit: Financial", content: `
 <p>A <b>financial capitalist</b> gets surplus in a different way. They own a lot of capital, such as housing, land, heavy machines, and shares in business.</p>
 <p>The first capital was taken with exploitation. When people (including industrial capitalists) do not have capital themselves, they will borrow from the financial capitalist. The capitalist is paid with <b>interest</b>, so they get more capital back than they gave.</p>
-<p>A capitalist can be both <i>financial</i> and <i>industrial</i>.</p>
 <p>Banks are financial capitalists. They get a profit by giving loans.</p>
 ` },
 
     { topic: "Marxism",       level: 1,  title: "Financial Crisis", content: `
-<p>The way an industrial capitalist gets surplus, with exploitation, causes financial crises, like in 2008.</p>
-<p>Because a worker is paid only some of the value they made, they cannot buy back everything they produced.</p>
+<p>The way a capitalists get surplus, with exploitation, causes financial crises, like in 2008.</p>
+<p>Because a worker is paid only some of the value they made, or must pay interest on their loans, they cannot buy back everything they produced.</p>
 <p>For example, if every person worked picking fruit - $20 of fruit picked per hour - but they were paid only $10 per hour, they could only buy half of what they produced.</p>
 <p>Capitalists do not fix this (by exploiting less) because they all want to exploit a big surplus for themselves. This problem is fixed often by fast spending, and fast growth.</p>
 <p>It is also slightly fixed by giving loans, mortgages, and credit to workers so they can still buy without money.</p>
@@ -92,7 +91,7 @@ let _modules = [
 A house owned and lived in by a family of 4 is what <u>type of property</u>?
 Private: Try again.; Personal: Correct! The house is not being used to get surplus.
 #Mark works at a factory. His boss pays him very well. Which <u>class</u> is he?
-Bourgeoisie: Try again.; Petite-Bourgeoise: Incorrect. Income does not matter.; Proletariat: Correct! Mark does not own the factory he works in.
+Bourgeoisie: Try again.; Petite-Bourgeoise: Incorrect. Income does not matter.; Proletariat: Correct! Mark does not own the factory he works in, and doesn't own the tools he works with.
 #Sarah is a famous singer. She owns her own recording studio. She is a millionaire. Which <u>class</u> is she?
 Bourgeoisie: Try again. Sarah does not exploit workers for surplus.; Petite-Bourgeoise: Correct! Sarah does not exploit for surplus, but does have a lot of capital (her recording studio).; Proletariat: Try again. Sarah does not work for another person.
 #Steve owns a laptop, and lets others work on it for $1 an hour. What <u>type of property</u> is the laptop?
@@ -101,7 +100,7 @@ Private: Correct! Even though Steve does not pay wages, he is still making a sur
 
     { topic: "Marxism",       level: 0,  title: "Class Conflict", content: `
 <p>Marxism finds that <u>society is constantly in conflict, between the Proletariat and Bourgeoisie</u>.</p>
-<p>They have different interests. First, the Proletariat want to increase wages, the Bourgeoisie want to decrease wages.</p>
+<p>They have different interests: the Proletariat want to increase wages, the Bourgeoisie want to decrease wages.</p>
 <p>The Bourgeoisie always want to increase profit. However, the Bourgeoisie are also in conflict with each other. Not only in a market, but politically.</p>
 <p>Socialism is the ultimate fight against the Bourgeoisie and their interests.</p>
 ` },
@@ -116,16 +115,22 @@ Private: Correct! Even though Steve does not pay wages, he is still making a sur
 <p>Shares/stock are sold in stock markets. The price is how good the corporation is, and how many dividends it pays.</p>
 <p>The problem is shareholders want big surplus. This means lowering wages, lowering safety, and increasing hours. It will also reduce costs, but workers do this anyway.</p>
 <br>
-<p>Most shareholders are Bourgeois - they 'own' private property by voting for directors. A corporation can also own shares of other corporations.</p>
+<p>Most shareholders are Bourgeois - shares are private property because they exploit surplus. A corporation can also own shares of other corporations.</p>
 <p>Some corporations make their customers the shareholders, such as co-operative banks or supermarkets. Usually, it will then be one vote per shareholder.</p>
 <p>Because shares are contracts, they can be different: maybe some shares have no vote, maybe some shares pay no dividends.</p>
 ` },
 
     { topic: "Marxism",       level: 1,  title: "Bourgeois State", content: `
 <p>Marxism sees a state (a government, courts, prisons, police, army) as a tool of the Bourgeoisie.</p>
-<p>A state is made when there are different classes in society. Because the Proletariat and Bourgeoisie are different relationships with private property, a state is needed to keep private property safe.</p>
+<p>A state is made when there are different classes in society. Because the Proletariat and Bourgeoisie are different relationships with private property, a state is needed to keep private property safe, and keep the two classes from fighting.</p>
 <p>Because private property is owned only by the Bourgeois classes, <u>a state is Bourgeois</u>.</p>
 <p>Bourgeois states are against socialism because socialism is the Proletariat owning the means of production.</p>
+//Bourgeois state:
+//Mediate class antogonisms so society doesn't just collapse
+//Organisation of violence, to keep oppressed oppressed
+//Dictatorship of the bourgeoisie
+//Anti-socialist
+//Doesn't mind autocratic concealment
 ` },
 
     { topic: "Marxism",       level: 1,  title: "Unions", content: `
@@ -224,15 +229,9 @@ Private: Correct! Even though Steve does not pay wages, he is still making a sur
     { topic: "Revolution",    level: 1,  title: "Investigation", content: `//Pegagogy of the Oppressed` },
 
     { topic: "Revolution",    level: 1,  title: "Proletarian State", content: `
-//Bourgeois state:
-//Mediate class antogonisms so society doesn't just collapse
-//Organisation of violence, to keep oppressed oppressed
 //The workers need to become the ruling class
-//Dictatorship of the bourgeoisie
 //Prole state needs to wither away
 //Due to the loss of antagonism, the state will wither away
-//Anti-socialist
-//Doesn't mind autocratic concealment
 <!--<p>A state makes a <b>monopoly on violence</b> in an area - a place where they are strongest. The first thing a state will protect is property.</p>-->` },
 
     { topic: "Revolution",    level: 1,  title: "National Question", content: `` },
